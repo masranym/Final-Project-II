@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:id="@+id/ss"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/kung" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="ตากุ้งยิง"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ss"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="ใช้น้ำอุ่นประคบวันละ 3 ครั้ง ครั้งละ 10 – 15 นาที และใช้ ยาหยอดตา หรือ ยาป้ายตาที่เป็นยาปฎิชีวนะ ทุก 3 ชั่วโมง
+ถ้ายเคยมีประวัติแพ้ยา หรือหนังตามีอาการบวมแดงมาก หรือหยอดยาแล้วไม่ดีขึ้นใน 3 วัน ควรไปหาหมอเพื่อพิจารณาให้ ยาปฎิชีวนะ เช่น เพนวี หรือ อะม็อกซีซิลลิน นาน 5 – 7 วัน
+
+" />
+
+
+
+</RelativeLayout>

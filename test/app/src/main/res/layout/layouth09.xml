@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:id="@+id/ss"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/puadh" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="กังวล เครียด คิดมาก "
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_below="@+id/ss"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="เมื่อมีอาการปวดศรีษะเพียงเล็กน้อยควรกินยาพาราเซตามอลบรรเทา 1 – 2 เม็ด นั่งพัก นอนพัก ใช้นิ้วบีบนวด ควรไปปรึกษาแพทย์ ถ้ามีลักษณะ  ดังต่อไปนี้
+มีอาการปวดรุนแรง หรืออาเจียนรุนแรง
+มีอาการปวดมากตอนเช้ามืด จนสะดุ้งตื่น หรือปวดแรงขึ้นและนานขึ้นทุกวัน มีอาการเดินเซแขนขาอ่อนแรง หรือ ชักกระตุก
+มีอาการตาพร่ามัว และตาแดงร่วมด้วย
+มีอาการปวดศีรษะหลังจากได้รับบาดเจ็บ ที่ศีรษะ
+ดูแลตัวเอง 2 – 3 วันแล้วไม่ดีขึ้น
+มีความวิตกกังวล หรือไม่มั่นใจที่จะรักษาตนเอง
+" />
+
+
+
+</RelativeLayout>

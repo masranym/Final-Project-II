@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/lompis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="ลมพิษ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="292dp"
+        android:text="ทาด้วยยาแก้แพ้ผื่นคัน เช่น คาลาไมน์โลชั่นหรือครีมไตรแอมซิโนโลน หรือใช้ใบพลู" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:text="กหาสาเหตุที่แพ้ เช่น ยา อาหารทะเล เหล้าเบียร์ แมลง ละอองต่าง ๆ และหลีกเลี่ยงเสีย" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:text="ถ้าเป็นเรื้อรัง ควรไปหาหมอ" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagin"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/headtop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/hunam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/headtop"
+        android:text="หูอักเสบ หูน้ำหนวก"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ควรไปหาหมอ ซึ่งจะให้กินยาปฎิชีวนะนาน 10 วันและให้กิน ยาแก้ปวด ลดไข้ถ้ามีอาการ	ถ้ามีน้ำหนวกไหล ให้ใช้ไม้พันสำลีเช็ดให้แห้ง แล้วใช้ ยาหยอดหู ร่วมด้วย ไม่ควรเล่นน้ำหรือให้น้ำเข้าหู
+" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:id="@+id/imagin"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/kangtub" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="คางทูบ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imagin"
+        android:text="ใช้น้ำอุ่นประคบบริเวณที่บวมวันละ 2 – 3 ครั้ง ครั้งละ 15 – 30 นาที เพื่อลดการอักเสบ ถ้ารู้สึกปวดมาก กินพาราเซตามอล ทุก 4 – 6 ชั่วโมง
+	ถ้ามีอาการอักเสบ ปวด บวม แดง ร้อน ของอัณฑะ หรือปวดท้องมาก หรือซึม หรือชักหรืออาการไม่ดีขึ้นใน 7 วัน ควรไปหาหมอโดยเร็ว
+
+" />
+
+
+
+</RelativeLayout>

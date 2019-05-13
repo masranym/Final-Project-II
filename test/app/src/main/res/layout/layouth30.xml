@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagin"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/headtop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sinas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/headtop"
+        android:text="ไซนัสอักเสบ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ลดหรือกำจัดอาการคัดจมูกและกำจัดน้ำมูกโดยหาท่าที่น้ำมูกออกได้ดีที่สุด แล้วอยู่ในท่านั้นบ่อย ๆ ถ้าเป็นเรื้อรังควรใช้น้ำเกลือสวนล้างจมูกตามคำแนะนำของหมอ	ถ้าปวดหัวหรือมีไข้ ให้กินยาแก้ปวดลดไข้
+	ถ้าน้ำมูกเป็นหนอง ควรไปหาหมอเพื่อพิจารณาให้ยาปฎิชีวนะ อย่างใดอย่างหนึ่ง ถ้าเป็นเรื้องรังอาจต้องกินติดต่อกันนานอย่างน้อย 3 – 4 สัปดาห์
+
+" />
+
+
+
+</RelativeLayout>

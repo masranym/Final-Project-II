@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:id="@+id/ss"
+        android:src="@drawable/kopouak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="คอพอก"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_below="@+id/ss"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="ถ้ามีอาการน้ำหนักลด ใจสั่น มือสั่น เหนื่อยง่าย ขี้ร้อน เหงื่อออกมาก หรือที่ข้างคอเป็นก้อนแข็งหรือโตเร็ว หรือคลำได้ต่อมน้ำเหลืองที่ข้างคอโต หรือรู้สึกเจ็บ หรือก้อนโตมาก ควรไปหาหมอโดยเร็ว
+	ถ้าร่างกายเป็นปกติและก้อนไม่โตมาก และอยู่ในท้องถิ่นที่มีโรคคอพอกเนื่องจากขาดเกลือไอโอดีน ควรไปหาหมอเพื่อตรวจวินิจฉัย ถ้าพบว่าเกิดจากภาวะขาดไอโอดีน ก็จะให้กินเกลือไอโอดีน
+	ถ้าเป็นในสาวรุ่นหรือหญิงตั้งครรภ์ ไม่ต้องทำอะไร มักจ่ค่อย ๆ ยุบไปได้เอง ถ้าก้อนไม่ยุบหรือรู้สึกวิกตกกังวล ควรไปหาหมอ
+
+
+" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ss"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/kadjmuak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="คัดจมูก น้ำมูกไหล"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ss"
+
+        android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+        android:text="ถกินยาแก้แพ้ คลอร์เฟนิรามีน ยาแก้หวัด แก้แพ้ ครึ่ง – 1 เม็ด วันละ 2 – 3 ครั้ง หรือใช้สมุนไพร - หอมแดง แก้หวัด หรือกดจุดแก้หวัดคัดจมูก
+	หายใจให้ไอน้ำอุ่น ๆ ผ่านรูจมูก โดยใช้น้ำเดือด ๆ เทใส่ถ้วยหรือแก้ว ใช้มือ 2 ข้าง ปิดปากถ้วย โดยเหลือช่องหว่างนิ้วชี้กับนิ้วหัวแม่มือให้จมูกหายใจเอาไอน้ำได้
+
+
+" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagin"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/headtop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/jeb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/headtop"
+        android:text="เจ็บคอ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ถ้าหายใจลำบาก หรือมีก้อนบริเวณคอ ควรไปหาหมอโดยเร็ว	ถ้าเกิดจากต่อมทอนซิลอักเสบ	ถ้าเกิดจากไข้หวัด	ถ้ามีอาการคัดจมูก คันคอ ร่วมด้วย		ถ้าไม่มีอาการผิดปกติอื่น ๆ ให้ใช้น้ำเกลือกลั้วคอ งดเหล้า บุหรี่ ถ้าไม่ดีขึ้นใน 1 สัปดาห์ควรไปหาหมอ
+" />
+
+
+
+</RelativeLayout>

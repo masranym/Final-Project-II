@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/bouwan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="เบาหวาน"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="มีอาการหิวน้ำ หิวข้าวบ่อย ปัสวะบ่อย ถ้าเป็นน้อยไม่มีอาการต้องตรวจน้ำตาลในเลือดจึงรู้แนู่" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:text="ถ้าหากเป็นเบาหวานควรกินยาหรือฉีดยาอย่างสม่ำเสมอตามหมอสั่งอย่าหยุดยา ลดยา หรือเพิ่่มยาด้วยตนเอง" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="ถ้ากินยาหรือฉีดยาเบาหวานแล้วมีอาการใจหวิว ใจสั่น หน้ามืด ตาลาย เหงื่อแตกให้รีบกินน้ำหวานหรือของหวานถ้าหมดสติหรือชัก ควรส่งไปรักษาที่สถานพยาบาลใกล้บ้าน" />
+
+</RelativeLayout>

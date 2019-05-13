@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:id="@+id/ss"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/dan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="ความดันต่ำ หน้ามืด เวียนศีรษะ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ss"
+
+        android:text="ถ้ามีอาการเจ็บหน้าอกรุนแรง ปวดท้องหรืออาเจียนรุนแรง ถ่ายอุจจาระดำ ใจหวิวใจสั่น
+ชีพจรเต้นเร็ว เหงื่อแตกท่วมตัว หรือลุกนั่งมีอาการเป็นลม ต้องไปหาหมอโดยเร็ว
+ท่าไม่มีอาการข้างต้นให้ปฎิบัติดังนี้
+ให้นอนลงสักครู่ แล้วลุกขึ้นใหม่โดยลุกช้า ๆ อย่าลุกพรวดพราด ค่อย ๆ ลุกจากท่านอนเป็นท่านั่ง แล้วนั่งพักสักครู่ขยับและเกร็งขาหลาย ๆ ครั้ง แล้วค่อย ๆ ลุกขึ้นยืน ยืนนิ่งอยู่สักครู่ แล้วจึงค่อยเดิน
+ถ้ายังมีอาการ ให้กินยาหอม หรือกดจุดแก้เป็นลม
+
+
+" />
+
+
+
+</RelativeLayout>

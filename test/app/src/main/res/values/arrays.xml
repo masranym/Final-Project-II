@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>ก่อนอาหาร</item>
+        <item>หลังอาหาร</item>
+        <item>ก่อนนอน</item>
+        <item>เช้า</item>
+        <item>กลางวัน</item>
+        <item>เย็น</item>
+    </string-array>
+    <string-array name="symptom">
+        <item>ปวดหัว</item>
+        <item>ตัวร้อน</item>
+        <item>อาเจียน</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagin"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/headtop"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tomsin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/headtop"
+        android:text="ต่อมทอนซิลอักเสบ"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="เป็นไข้ เจ็บคอ ต่อมทอนซิลบวมแดง เป็นหนองหากสงสัยควรไปหาหมอ
+ถ้าวินิจฉัยว่าเป็นต่อมทอนซิลอักเสบจะให้การรักษาดังนี้
+	กินยาปฎิชีวนะ เช่น เพนวี หรือ อะม็อกซีซิลลิน ถ้าไม่แพ้ยาเหล่านี้ กินยาให้ครบ 10 วันแม้ว่าอาการจะหายก่อนก็ตาม เพื่อป้องกันไข้รูมาติกหรือไตอักเสบแทรกซ้อน ถ้ากินยา 3 วันแล้วไม่ดีขึ้น หรือเคยมีประวัติแพ้ยาเหล่านี้อาจพิจารณาให้ ยาปฎิชีวนะ ชนิดอื่นแทน
+
+
+
+" />
+
+
+
+</RelativeLayout>

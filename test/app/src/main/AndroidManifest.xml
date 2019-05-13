@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="masran.myapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Remind" />
+        <activity android:name=".Prim" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapsActivity"/>
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".Health" />
+        <activity android:name=".diseaseanalysis.Layout01" />
+        <activity android:name=".diseaseanalysis.Layout02" />
+        <activity android:name=".diseaseanalysis.Layout03" />
+        <activity android:name=".diseaseanalysis.Layout04lompis" />
+        <activity android:name=".diseaseanalysis.Layout05bouwan" />
+        <activity android:name=".diseaseanalysis.Layout06desan" />
+        <activity android:name=".diseaseanalysis.Layout07esuesai" />
+        <activity android:name=".diseaseanalysis.Layout08glean" />
+        <activity android:name=".diseaseanalysis.Layout09" />
+        <activity android:name=".diseaseanalysis.Layout10" />
+        <activity android:name=".diseaseanalysis.Layout11" />
+        <activity android:name=".diseaseanalysis.Layout12" />
+        <activity android:name=".diseaseanalysis.Layout13" />
+        <activity android:name=".diseaseanalysis.Layout14" />
+        <activity android:name=".diseaseanalysis.Layout15" />
+        <activity android:name=".diseaseanalysis.Layout16" />
+        <activity android:name=".diseaseanalysis.Layout17" />
+        <activity android:name=".diseaseanalysis.Layout18" />
+        <activity android:name=".diseaseanalysis.Layout19" />
+        <activity android:name=".diseaseanalysis.Layout20" />
+        <activity android:name=".diseaseanalysis.Layout21" />
+        <activity android:name=".diseaseanalysis.Layout22" />
+        <activity android:name=".diseaseanalysis.Layout23" />
+        <activity android:name=".diseaseanalysis.Layout24" />
+        <activity android:name=".diseaseanalysis.Layout25" />
+        <activity android:name=".diseaseanalysis.Layout26" />
+        <activity android:name=".diseaseanalysis.Layout27" />
+        <activity android:name=".diseaseanalysis.Layout28" />
+        <activity android:name=".diseaseanalysis.Layout29" />
+        <activity android:name=".diseaseanalysis.Layout30" />
+        <activity android:name=".diseaseanalysis.Layout31" />
+
+        <activity android:name=".diseaseanalysis.Help" />
+        <activity android:name=".alarmreminder.ReminderActivity"/>
+        <receiver android:name=".Alarm"/>
+        <receiver android:name=".alarmreminder.NotificationReciever"/>
+
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:id="@+id/imagin"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/tapra" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="ตาพร่า ตามัว"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:text="ถ้าตามืดมัวลงทันทีทันใด หรือปวดตารุนแรงหรือเป็นหลังได้รับบาดเจ็บ หรือกระจกตาดำมีฝ้าขาว หรือเป็นแผล รีบไปหาหมอทันที
+	ถ้าตาค่อย ๆ มัวลง ๆ เป็นแรมเดือนแรมปี โดยไม่มีอาการผิดปกติอื่น ๆ ในผู้สูงอายุน่าจะเป็นต้อกระจก ควรไปหาหมอเมื่อมีโอกาศ
+	ถ้าตามัวแบบมองใกล้ไม่ชัด หรือมองไกลไม่ชัด ให้ทดสอบตาทีละข้าง โดยมองผ่านรูเข็มที่เจาะไว้กลางกระดาษ ถ้าเห็นชัดจึ้นแสดงว่า สายตาสั้นหรือสายตายาว ให้หาแว่นสายตาใส่หรือฝึกสายตา
+	ถ้ามีอาการตามัวโดยไม่เข้าลักษณะข้างบน ควรไปหาหมอโดยเร็ว
+
+" />
+
+
+
+</RelativeLayout>

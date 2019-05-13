@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etremind"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:text="Drug name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etremind"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/selectime"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="ชื่อยา" />
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/selectime"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:text="Time remind"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/selectime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="96dp"
+        android:hint="เลือกเวลา" />
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sss"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:text="Message"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="146dp"
+        android:hint="เตือนความจำ     "
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:onClick="alarmAdd"
+        android:padding="25dp"
+        android:text="Add" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/addalarm01"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:clickable="true"-->
+    <!--android:elevation="10dp"-->
+    <!--app:tint="@color/WhiteSmoks"-->
+    <!--app:backgroundTint="@color/yello"-->
+    <!--app:fabSize="normal"-->
+    <!--android:src="@android:drawable/ic_input_add" />-->
+
+
+</RelativeLayout>

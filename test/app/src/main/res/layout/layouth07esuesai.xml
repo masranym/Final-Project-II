@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/esuesai" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="อีสุอีใส"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="อาการคล้ายไข้หวัด 1-2 วัน แล้วเกิดตุ่มพองที่ลำตัวส่วนบนก่อน จากนั้นจึงลามไปที่อื่น ตุ่มพองจะแตกและตกสะเก็ตในหนึ่งวันและมีตุ่มใหม่ ๆ ทยอยเกินขึ้นใน 5 วันแล้วโรคจะทุเลา" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:text="ถ้าคันทาด้วยยาแก้แพ้ผดผื่นคัน เช่น คาลาไมน์โลชั่น ควรตัดเล็บให้สั้นและห้ามเกา้" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="ถ้าตุ่มกลายเป็นหนองควรไปหาหมอเพื่อพิจรณาให้ยาปฎิชีวนะ เช่น เพนวี หรืออะม็อกซีซิลลิน นาน 5-7 วัน" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.3"
+        android:background="@drawable/bgts">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/desan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="ดีซ่าน (ตาเหลือง ตัวเหลือง)"
+        android:textColor="@color/pink"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="ถ้ามีไข้สูง ซีด ปวดท้องมาก ท้องโตขึ้น ๆ อาเจียน กินไม่ได้ บวม หรือซูบผอมลงมาก ควรรีบไปหาหมอ" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:text="ถ้าไม่มีอาการในข้อ 1 ควรไปหาหมอภายใน 2-3 วัน ถ้าหมอวินิจฉัยว่าเป็นตับอักเสบจากไวรัสจะให้ปฎิบัติดังนี้" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="ห้ามทำงานหนัก,ดื่มน้ำให้มาก ๆ ,ควรใช้ช้อน ถ้วย ชาม แยกจากผู้อื่น ,ควรงดกินอาหารมัน ,ห้ามดื่มเหล้าเบียร์" />
+
+</RelativeLayout>
